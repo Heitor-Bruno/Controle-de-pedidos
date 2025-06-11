@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+    <head>
+        <meta charset="utf-8">
+        <title>Sistema de controle de serviço</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style-home.css">
+    </head>
+    <body>
+        <header>
+            <div class="cabecalho">
+                <div class="caixaNika">
+                <a href="home.html"><img class="nika" src="Imagens/nika.png"></a>
+                </div>
+                <div class="logo">
+                <h1><strong>Bem vindo!</strong></h1>
+                <h2><strong>O que gostaria de fazer?</strong></h2>
+                </div>
+            </div>
+        </header>
+        <main id="principal">
+            <div class="container">
+                <div class="menu">
+                    <hr>
+                    <div class="botao0">
+                        <a href="home.html" class="linkMenu"><img class="home" src="Imagens/botaoHome.png"><span class="nBotao">Home</span></a>
+                    </div>
+                    <div class="botao1">
+                        <a href="novoRegistro.html" class="linkMenu"><img class="novaOS" src="Imagens/novaOS.png"> <span class="nBotao">Nova O.S.</span></a>
+                    </div>
+                    <div class="botao2">
+                        <img class="vendaDeProdutos" src="Imagens/vendaDeProdutos.png"><span class="nBotao linkMenu">Vendas</span>
+                    </div>
+                    <div class="botao3"></div>
+                    <div class="botao4"></div>
+                </div>
+                <div class="registroOS">
+
+                    <form class="formulario">
+
+                        <label class="rotulos nome" for="nome">Nome</label>
+                        <input class="nome" type="text" id="nome" required>
+
+                        <span class="data">
+                            <label class="rotulos" for="data">Data</label>
+                            <input type="date" id="data" required>
+                        </span>
+                        
+                        <span class="tel">
+                            <label class="rotulos" for="tel">Telefone</label>
+                            <input type="number" id="tel">
+                        </span>
+
+                        <label class="rotulos CPF" for="CPF">CPF</label>
+                        <input class="CPF" type="number" id="CPF">
+
+                        <label class="rotulos endereco" for="endereco">Endereço</label>
+                        <input class="endereco" type="text" id="endereco">
+                        <span class="num">
+                            <label class="rotulos" for="numero">N°</label>
+                            <input type="number" id="numero">
+                        </span>
+                        
+                        <span class="bairro">
+                            <label class="rotulos" for="bairro">Bairro</label>
+                            <input type="number" id="bairro">
+                        </span>
+                        
+                        <label class="rotulos cidade" for="cidade">Cidade</label>
+                        <input class="cidade" type="text" id="cidade">
+
+                        <label class="rotulos equip" for="equipamento">Equipamento</label>
+                        <input class="equip" type="text" id="equipamento">
+
+                        <span class="mark">
+                            <label class="rotulos" for="marca">Marca</label>
+                            <input type="text" id="marca">
+                        </span>
+                        
+                        <span class="mold">
+                            <label class="rotulos" id="modelo">Modelo</label>
+                            <input type="text" id=" modelo">
+                        </span>
+                        
+                        <fieldset class="tipoServico">
+                            <legend class="rotulos">Tipo de serviço</legend>
+                            <select class="selecaoTipoServico">
+                                <option>Venda</option>
+                                <option>Manutenção</option>
+                                <option>TI</option>
+                                <option>Venda e manutenção</option>
+                                <option>Venda e TI</option>
+                                <option>Manutenção e TI</option>
+                                <option>Outros</option>
+                            </select>
+                        </fieldset>
+
+                        <label class="rotulos desc" for="descricao">Descrição</label>
+                        <textarea class="desc" cols="50" rows="6" id="descricao" required></textarea>
+
+                        <label class="rotulos cash" for="valor">Valor</label>
+                        <input class="cash" type="number" id="valor">
+
+                        <span class="nOrdem">
+                            <label class="rotulos" id="nPedido">N° Pedido</label>
+                            <input type="text" id="nPedido">
+                        </span>
+                    </form>
+
+                    <button class="salvar" type="button">Salvar</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="rodape">
+                <p class="copyright">Sistema de controle de OS e estoque.</p><br>
+                <p class="copyright">&copy; Copyright - Uno Tech</p>
+            </div>
+        </footer>
+    </body>
+</html>

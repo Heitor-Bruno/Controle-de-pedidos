@@ -1,0 +1,155 @@
+#principal {
+    position: relative;
+}
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    position: relative;
+    background-color: rgb(32, 141, 184);
+}
+.caixaNika{
+    position: absolute;
+    left: 80px;
+}
+h1, h2{
+    font-family: Verdana;
+    font-weight: 600;
+}
+.logo{
+    text-align: center;
+    color: white;
+}
+.nika{
+    height: 50px;
+    width: 50px;
+}
+.container{
+    position: relative;
+}
+.menu {
+    display: inline-block;
+    background-color: rgb(32, 141, 184);
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 600px;
+    width: 150px;
+}
+.botao0, .botao1, .botao2, .linkMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.linkMenu{
+    font-size: 16px;
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+    font-family: 'Lucida Sans';	
+}
+.botao0:hover, .botao1:hover, .botao2:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+    border-width: 120%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.home{
+    width: 30px;
+    height: 30px;
+}
+.vendaDeProdutos{
+    width: 30px;
+	height: 30px;
+    padding-right: 5px;
+}
+.novaOS {
+    width: 35px;
+	height: 35px;
+}
+.registroOS{
+    position: absolute;
+    top: 20px;
+    left: 350px;
+}
+.rotulos{
+    display: block;
+    padding-top: 5px;
+    font-family: sans-serif;
+}
+.data {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    width: 60%;
+}
+.tel{
+    position: absolute;
+    top: 44px;
+    left: 300px;
+    width: 60%;
+}
+.num {
+    position: absolute;
+    top: 88px;
+    left: 300px;
+    width: 60%;
+}
+.bairro {
+    position: absolute;
+    top: 88px;
+    left: 500px;
+    width: 60%;
+}
+.mark {
+    position: absolute;
+    top: 166px;
+    left: 300px;
+    width: 70%;
+}
+.mold {
+    position: absolute;
+    top: 166px;
+    left: 500px;
+    width: 70%;
+}
+.nOrdem{
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 60%;
+}
+form input{
+    width: 60%;
+}
+.cash{
+    width: 35%;
+}
+.salvar{
+    margin-top: 10px;
+    width: 30%;
+    background-color: rgb(108, 201, 238);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.salvar:hover{
+    background-color: black;
+    color:white;
+}
+.rodape {
+    background-color:black;
+    height: 10dvb;
+}
+.copyright{
+    color:antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
