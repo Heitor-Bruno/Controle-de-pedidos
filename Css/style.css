@@ -26,6 +26,14 @@ h1, h2{
     height: 50px;
     width: 50px;
 }
+.caixaTema{
+    position: absolute;
+    right: 80px;
+}
+.sun{
+    height: 40px;
+    width: 40px;
+}
 .container{
     position: relative;
 }
