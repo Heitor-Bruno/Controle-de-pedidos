@@ -81,7 +81,7 @@ h1, h2{
     width: 35px;
 	height: 35px;
 }
-.registroOS{
+.formulario{
     position: absolute;
     top: 20px;
     left: 350px;
@@ -140,8 +140,11 @@ form input{
     width: 35%;
 }
 .salvar{
+    position: absolute;
+    top: 470px;
+    left: 350px;
     margin-top: 10px;
-    width: 30%;
+    width: 20%;
     background-color: rgb(108, 201, 238);
     border-radius: 5px;
     padding-top: 5px;
