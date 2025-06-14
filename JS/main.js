@@ -1,7 +1,7 @@
-const btnsun = document.getElementsByClassName("tema");
-const areaRegistro = document.getElementsByClassName("formulario");
-const darkTheme = #262626;
+const btnsun = document.getElementsByClassName('tema');
+const areaRegistro = document.getElementsByClassName('registroOS');
+const darkTheme ='rgb(38, 38, 38)';
 
-btnsun.onclick = function() {
-    areaRegistro.style.backgroundColor = darkTheme.value;
+btnsun.onclick = function () {
+    areaRegistro.style.backgroundColor = gray;
 }
