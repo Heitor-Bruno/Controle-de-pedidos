@@ -5,6 +5,7 @@
         <title>Sistema de controle de serviço</title>
         <link rel="stylesheet" href="../Css/reset.css">
         <link rel="stylesheet" href="../Css/style.css">
+        <script src="../JS/main.js"></script>
     </head>
     <body>
         
@@ -18,13 +19,13 @@
                 <h2><strong>O que gostaria de fazer?</strong></h2>
                 </div>
                 <div class="caixaTema">
-                    <button class="tema" type="button"><img class="sun" src="../Imagens/moon.png">teste</button>
+                    <button class="tema" type="button" onclick="darkTheme()"><img class="sun" src="../Imagens/moon.png"></button>
                 </div>
             </div>
         </header>
         <main id="principal">
             <div class="container">
-                <div class="menu">
+                <nav class="menu">
                     <hr>
                     <div class="botao0">
                         <a href="index.html" class="linkMenu"><img class="home" src="../Imagens/botaoHome.png"><span class="nBotao">Home</span></a>
@@ -37,9 +38,9 @@
                     </div>
                     <div class="botao3"></div>
                     <div class="botao4"></div>
-                </div>
+                </nav>
                 
-                <div class="registroOS">
+                <section id="registroOS">
 
                     <form class="formulario">
 
@@ -113,7 +114,7 @@
                     </form>
 
                     <button class="salvar" type="button">Salvar</button>
-                </div>                
+                </section>                
             </div>
         </main>
         <footer>
@@ -122,6 +123,5 @@
                 <p class="copyright">&copy; Copyright - Uno Tech</p>
             </div>
         </footer>
-        <script src="..//JS/main.js"></script>
     </body>
 </html>
